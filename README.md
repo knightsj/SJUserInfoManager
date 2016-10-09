@@ -16,38 +16,38 @@ If you want to use this API, please put the SJUserInfoManager.h & SJUserInfoMana
 `
 /*  ********** Create table with tableName and fieldName **********
  *  * @param   dataBaseName    tableNameString
- * @param   userInfoField   fieldNameString
+ *    @param   userInfoField   fieldNameString
  *  * @return  if the table is successfully created
  *  */
 + (BOOL)createDataBaseWithName:(NSString *)dataBaseName andUserInfoField:(NSString *)userInfoField;
 
 /*  ********** update specific userInfo with specific userID and userInfoField and userInfoValue **********
  *  * @param   dataBaseName    tableNameString
- * @param   userID          userIDString
- * @param   userInfoField   fieldNameString
- * @param   userInfoValue   userInfoValueString
+ *    @param   userID          userIDString
+ *    @param   userInfoField   fieldNameString
+ *    @param   userInfoValue   userInfoValueString
  *  * @return  the result of updating specific userInfo
  *  */
 + (NSString *)updateUserInfoIntoDataBase:(NSString *)dataBaseName withUserID:(NSString *)userID andUserInfoField:(NSString *)userInfoField andUserInfoValue:(NSString *)userInfoValue;
 
 /*  ********** Query specific userInfoValue with tableName and userID and userInfoField **********
  *  * @param   dataBaseName    tableNameString
- * @param   userID          userIDString
- * @param   userInfoField   fieldNameString
+ *    @param   userID          userIDString
+ *    @param   userInfoField   fieldNameString
  *  * @return  specific userInfoValue
  *  */
 + (NSString *)queryUserInfoInDataBase:(NSString *)dataBaseName WithUserID:(NSString *)userId andUserInfoField:(NSString *)userInfoField;
 
 /*  ********** Query all userInfos in this table with userInfoField **********
  *  * @param   dataBaseName    tableNameString
- * @param   userInfoField   fieldNameString
+ *    @param   userInfoField   fieldNameString
  *  * @return  all the userInfos in this table
  *  */
 + (NSDictionary *)queryUserInfosInDataBase:(NSString *)dataBaseName andUserInfoField:(NSString *)userInfoField;
 
 /*  ********** Delete specific userInfo with specific userID **********
  *  * @param   dataBaseName    tableNameString
- * @param   userId          userIDString
+ *    @param   userId          userIDString
  *  * @return  the result of deleting specific userInfo
  *  */
 + (NSString *)deleteUserInfoInDataBase:(NSString *)dataBaseName WithUserID:(NSString *)userId;
@@ -56,20 +56,18 @@ If you want to use this API, please put the SJUserInfoManager.h & SJUserInfoMana
 # How to use SJUserInfoManager
 In order to show how to user SJUserInfoManager, I offer you a demo to show how it works.
 
-### The Operation Page of this Demo:
-(The Operation Page)[][1]
+### The Operation Page in this Demo:
+![Operation Page](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_1)
 > In this Page, we can update(add,change),query and delete specific userInfo using specific user_id._
 
-### The UserInfo List Page of this Demo:
-(The UserInfo List Page)[][2]
+### The UserInfo List Page in this Demo:
+![UserInfo List Page](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_2)
 > In this page, we can see all the userInfo in current database.
 
-### The sqlite file:
-(The sqlite file)[][3]
+### The sqlite file in sandbox:
+![The sqlite file](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_3)
 > We can see that the data of the sqlite file which is in the sandbox is same as the data of the userInfo list page.
 
 Thank you for read this!
 
-[1]:	https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_1
-[2]:	https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_2
-[3]:	https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_3
+
