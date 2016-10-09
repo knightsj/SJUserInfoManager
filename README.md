@@ -57,15 +57,15 @@ If you want to use this API, please put the SJUserInfoManager.h & SJUserInfoMana
 In order to show how to user SJUserInfoManager, I offer you a demo to show how it works.
 
 ### The Operation Page in this Demo:
-![Operation Page](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_1)
+![Operation Page](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_1.png)
 > In this Page, we can update(add,change),query and delete specific userInfo using specific user_id._
 
 ### The UserInfo List Page in this Demo:
-![UserInfo List Page](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_2)
+![UserInfo List Page](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_2.png)
 > In this page, we can see all the userInfo in current database.
 
 ### The sqlite file in sandbox:
-![The sqlite file](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_3)
+![The sqlite file](https://github.com/Shijie0111/SJUserInfoManager/Resources/Pic_3.png)
 > We can see that the data of the sqlite file which is in the sandbox is same as the data of the userInfo list page.
 
 Thank you for read this!
